@@ -16,7 +16,7 @@ int main () {
   }else if(choice=='f' || choice=='F'){
     printf("\nInput Fahrenheit: ");
     scanf("%f", &fahrenheit);
-    celsius=(fahrenheit-32)*5/9;
+    celsius=(fahrenheit-32.0)*5.0/9.0;
     printf("\Celsius is %.2f.\n", celsius);
   }else{
     printf("\nError: Invalid input.");
